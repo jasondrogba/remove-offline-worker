@@ -20,8 +20,10 @@ ALLUXIO_NAME = "alluxio"
 ETCD_POD = "alluxio-etcd-0"
 # 会进入到coordinator pod 中执行alluxio info nodes命令，可以换成其他正常running的worker pod
 COORDINATOR_POD = "alluxio-coordinator-0"
+LOG_FILE = "worker_cleanup.log"
+CHECK_INTERVAL = 30  # 30秒检查一次
 ```
-
+在后台运行
 ```
 nohup python3 monitor-remove-offline-worker.py > worker_cleanup.log 2>&1 &
 ```

@@ -111,3 +111,28 @@
 [2025-03-05 15:52:56] Worker Pods: 
 [2025-03-05 15:52:56]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
 [2025-03-05 15:52:56]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:53:26] ==================== Starting new check cycle ====================
+[2025-03-05 15:53:26] Not Ready Nodes: []
+[2025-03-05 15:53:26] Worker Pods: 
+[2025-03-05 15:53:26]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:53:26]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:53:56] ==================== Starting new check cycle ====================
+[2025-03-05 15:53:56] Not Ready Nodes: []
+[2025-03-05 15:53:56] Worker Pods: 
+[2025-03-05 15:53:56]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:53:56]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:54:26] ==================== Starting new check cycle ====================
+[2025-03-05 15:54:26] Not Ready Nodes: []
+[2025-03-05 15:54:26] Worker Pods: 
+[2025-03-05 15:54:26]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:54:26]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:54:56] ==================== Starting new check cycle ====================
+[2025-03-05 15:54:57] Not Ready Nodes: []
+[2025-03-05 15:54:57] Worker Pods: 
+[2025-03-05 15:54:57]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:54:57]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:55:27] ==================== Starting new check cycle ====================
+[2025-03-05 15:55:27] Not Ready Nodes: []
+[2025-03-05 15:55:27] Worker Pods: 
+[2025-03-05 15:55:27]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:55:27]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running

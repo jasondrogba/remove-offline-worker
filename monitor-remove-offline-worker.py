@@ -14,9 +14,10 @@ ALLUXIO_NAME = "alluxio"
 ETCD_POD = "alluxio-etcd-0"
 # 会进入到coordinator pod 中执行alluxio info nodes命令，可以换成其他正常running的worker pod
 COORDINATOR_POD = "alluxio-coordinator-0"
-
+# 日志信息保存的地方
 LOG_FILE = "worker_cleanup.log"
-CHECK_INTERVAL = 30  # 30秒检查一次
+# 定时执行的时间，每隔多长时间监测node，worker状态
+CHECK_INTERVAL = 30  
 
 def log(message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
