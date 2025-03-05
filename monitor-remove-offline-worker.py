@@ -6,9 +6,13 @@ import re
 
 
 # 配置环境变量
+# alluxio集群的namespace
 ALLUXIO_NAMESPACE = "default"
+# alluxio集群的名字，用于在etcd中匹配worker信息进行删除
 ALLUXIO_NAME = "alluxio"
+# 会进入到etcd pod中删除worker信息
 ETCD_POD = "alluxio-etcd-0"
+# 会进入到coordinator pod 中执行alluxio info nodes命令，可以换成其他正常running的worker pod
 COORDINATOR_POD = "alluxio-coordinator-0"
 
 LOG_FILE = "worker_cleanup.log"

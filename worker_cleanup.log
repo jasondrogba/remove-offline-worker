@@ -1,0 +1,113 @@
+[2025-03-05 15:40:56] ==================== Starting new check cycle ====================
+[2025-03-05 15:40:56] Not Ready Nodes: []
+[2025-03-05 15:40:56] Worker Pods: 
+[2025-03-05 15:40:56]   alluxio-worker-577545dc9-2q7z7 on alluxio-e2e-worker3 (IP: 10.244.4.5) Status: Running
+[2025-03-05 15:40:56]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:41:26] ==================== Starting new check cycle ====================
+[2025-03-05 15:41:27] Not Ready Nodes: []
+[2025-03-05 15:41:27] Worker Pods: 
+[2025-03-05 15:41:27]   alluxio-worker-577545dc9-2q7z7 on alluxio-e2e-worker3 (IP: 10.244.4.5) Status: Running
+[2025-03-05 15:41:27]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:41:57] ==================== Starting new check cycle ====================
+[2025-03-05 15:41:57] Not Ready Nodes: []
+[2025-03-05 15:41:57] Worker Pods: 
+[2025-03-05 15:41:57]   alluxio-worker-577545dc9-2q7z7 on alluxio-e2e-worker3 (IP: 10.244.4.5) Status: Running
+[2025-03-05 15:41:57]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:42:27] ==================== Starting new check cycle ====================
+[2025-03-05 15:42:27] Not Ready Nodes: []
+[2025-03-05 15:42:27] Worker Pods: 
+[2025-03-05 15:42:27]   alluxio-worker-577545dc9-2q7z7 on alluxio-e2e-worker3 (IP: 10.244.4.5) Status: Running
+[2025-03-05 15:42:27]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:42:57] ==================== Starting new check cycle ====================
+[2025-03-05 15:42:57] Not Ready Nodes: []
+[2025-03-05 15:42:57] Worker Pods: 
+[2025-03-05 15:42:57]   alluxio-worker-577545dc9-2q7z7 on alluxio-e2e-worker3 (IP: 10.244.4.5) Status: Running
+[2025-03-05 15:42:57]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:43:27] ==================== Starting new check cycle ====================
+[2025-03-05 15:43:27] Not Ready Nodes: []
+[2025-03-05 15:43:27] Worker Pods: 
+[2025-03-05 15:43:27]   alluxio-worker-577545dc9-2q7z7 on alluxio-e2e-worker3 (IP: 10.244.4.5) Status: Running
+[2025-03-05 15:43:27]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:43:57] ==================== Starting new check cycle ====================
+[2025-03-05 15:43:58] Not Ready Nodes: []
+[2025-03-05 15:43:58] Worker Pods: 
+[2025-03-05 15:43:58]   alluxio-worker-577545dc9-2q7z7 on alluxio-e2e-worker3 (IP: 10.244.4.5) Status: Running
+[2025-03-05 15:43:58]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:44:28] ==================== Starting new check cycle ====================
+[2025-03-05 15:44:28] Not Ready Nodes: ['alluxio-e2e-worker3']
+[2025-03-05 15:44:28] Worker Pods: 
+[2025-03-05 15:44:28]   alluxio-worker-577545dc9-2q7z7 on alluxio-e2e-worker3 (IP: 10.244.4.5) Status: Running
+[2025-03-05 15:44:28]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:44:28] Pod alluxio-worker-577545dc9-2q7z7 is on NotReady node alluxio-e2e-worker3, deleting it.
+[2025-03-05 15:45:53] Removing worker worker-0d950643-73c0-461d-a694-ecc601819336 from etcd
+[2025-03-05 15:45:53] Deleting pod alluxio-worker-577545dc9-2q7z7
+[2025-03-05 15:46:23] ==================== Starting new check cycle ====================
+[2025-03-05 15:46:23] Not Ready Nodes: ['alluxio-e2e-worker3']
+[2025-03-05 15:46:23] Worker Pods: 
+[2025-03-05 15:46:23]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:46:23]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:46:53] ==================== Starting new check cycle ====================
+[2025-03-05 15:46:54] Not Ready Nodes: ['alluxio-e2e-worker3']
+[2025-03-05 15:46:54] Worker Pods: 
+[2025-03-05 15:46:54]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:46:54]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:47:24] ==================== Starting new check cycle ====================
+[2025-03-05 15:47:24] Not Ready Nodes: ['alluxio-e2e-worker3']
+[2025-03-05 15:47:24] Worker Pods: 
+[2025-03-05 15:47:24]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:47:24]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:47:54] ==================== Starting new check cycle ====================
+[2025-03-05 15:47:54] Not Ready Nodes: ['alluxio-e2e-worker3']
+[2025-03-05 15:47:54] Worker Pods: 
+[2025-03-05 15:47:54]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:47:54]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:48:24] ==================== Starting new check cycle ====================
+[2025-03-05 15:48:24] Not Ready Nodes: ['alluxio-e2e-worker3']
+[2025-03-05 15:48:24] Worker Pods: 
+[2025-03-05 15:48:24]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:48:24]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:48:54] ==================== Starting new check cycle ====================
+[2025-03-05 15:48:54] Not Ready Nodes: ['alluxio-e2e-worker3']
+[2025-03-05 15:48:54] Worker Pods: 
+[2025-03-05 15:48:54]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:48:54]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:49:24] ==================== Starting new check cycle ====================
+[2025-03-05 15:49:24] Not Ready Nodes: []
+[2025-03-05 15:49:24] Worker Pods: 
+[2025-03-05 15:49:24]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:49:24]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:49:54] ==================== Starting new check cycle ====================
+[2025-03-05 15:49:55] Not Ready Nodes: []
+[2025-03-05 15:49:55] Worker Pods: 
+[2025-03-05 15:49:55]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:49:55]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:50:25] ==================== Starting new check cycle ====================
+[2025-03-05 15:50:25] Not Ready Nodes: []
+[2025-03-05 15:50:25] Worker Pods: 
+[2025-03-05 15:50:25]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:50:25]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:50:55] ==================== Starting new check cycle ====================
+[2025-03-05 15:50:55] Not Ready Nodes: []
+[2025-03-05 15:50:55] Worker Pods: 
+[2025-03-05 15:50:55]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:50:55]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:51:25] ==================== Starting new check cycle ====================
+[2025-03-05 15:51:25] Not Ready Nodes: []
+[2025-03-05 15:51:25] Worker Pods: 
+[2025-03-05 15:51:25]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:51:25]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:51:55] ==================== Starting new check cycle ====================
+[2025-03-05 15:51:55] Not Ready Nodes: []
+[2025-03-05 15:51:55] Worker Pods: 
+[2025-03-05 15:51:55]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:51:55]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:52:25] ==================== Starting new check cycle ====================
+[2025-03-05 15:52:26] Not Ready Nodes: []
+[2025-03-05 15:52:26] Worker Pods: 
+[2025-03-05 15:52:26]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:52:26]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
+[2025-03-05 15:52:56] ==================== Starting new check cycle ====================
+[2025-03-05 15:52:56] Not Ready Nodes: []
+[2025-03-05 15:52:56] Worker Pods: 
+[2025-03-05 15:52:56]   alluxio-worker-577545dc9-6hjj9 on alluxio-e2e-worker2 (IP: 10.244.1.14) Status: Running
+[2025-03-05 15:52:56]   alluxio-worker-577545dc9-ltztk on alluxio-e2e-worker (IP: 10.244.2.3) Status: Running
