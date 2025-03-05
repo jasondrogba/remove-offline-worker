@@ -14,6 +14,7 @@ ETCD_POD = "alluxio-etcd-0"
 # 会进入到coordinator pod 中执行alluxio info nodes命令，可以换成其他正常running的worker pod
 COORDINATOR_POD = "alluxio-coordinator-0"
 
+# 日志信息保存的地方
 LOG_FILE = "worker-monitor.log"
 LOG_MAX_SIZE = 5 * 1024 * 1024  # 5MB
 LOG_BACKUP_COUNT = 5  # 最多保留5个日志文件
