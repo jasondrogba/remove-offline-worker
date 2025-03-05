@@ -59,7 +59,7 @@ Warning: Immediate deletion does not wait for confirmation that the running reso
 pod "alluxio-worker-577545dc9-2q7z7" force deleted
 ```
 
-etcd中会删除对应的 `worker-0d950643-73c0-461d-a694-ecc601819336`
+监控脚本会首先去etcd中会删除对应的 `worker-0d950643-73c0-461d-a694-ecc601819336`
 ```
 I have no name!@alluxio-etcd-0:/opt/bitnami/etcd$ etcdctl get --prefix "" | grep /ServiceDiscovery/
 /ServiceDiscovery/default-alluxio/worker-0d950643-73c0-461d-a694-ecc601819336
@@ -68,7 +68,7 @@ I have no name!@alluxio-etcd-0:/opt/bitnami/etcd$ etcdctl get --prefix "" | grep
 /ServiceDiscovery/default-alluxio/worker-bd310c49-815f-4f7b-8948-1709dadb86f9
 ```
 
-同时会强制delete 这个worker pod, 删除后会启动新的worker
+然后监控脚本同时会强制delete 这个worker pod, 删除后会启动新的worker
 ```
 ➜  ~ kubectl get pods -w  -owide
 NAME                                READY   STATUS    RESTARTS      AGE     IP            NODE                  NOMINATED NODE   READINESS GATES
